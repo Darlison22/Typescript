@@ -1,0 +1,12 @@
+"use strict";
+let statusAtual = 1;
+let mudaStatus = 0;
+let valor10 = "@@@";
+let numero = valor10;
+console.log(numero);
+mudaStatus = statusAtual;
+console.log(mudaStatus);
+mudaStatus = statusAtual;
+let query = 'pizza';
+let searchTerm = query;
+console.log('Search term: ', searchTerm);
