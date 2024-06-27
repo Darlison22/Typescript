@@ -8,7 +8,7 @@ function totalVendas(...vendas) {
     });
     console.log("O total de vendas foi de: $RS", totalVendas);
 }
-totalVendas(10, 30, 25, 100, 200, 300);
+totalVendas(10, 30, 25, 100, 200, 300, 10, 10, 10);
 function mostraNomes(...nomes) {
     console.log("Total de pessoas:", nomes.length);
     nomes.map(nome => {
